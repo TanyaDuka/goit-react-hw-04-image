@@ -1,0 +1,14 @@
+/*
+   * Стили компонента App
+   */
+.App {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+  padding-bottom: 5px;
+}
+
+.ButtonDiv {
+  margin-left: auto;
+  margin-right: auto;
+}

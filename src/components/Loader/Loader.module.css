@@ -1,0 +1,10 @@
+.Loader {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  align-items: center;
+}
+.Loader svg circle,
+.Loader svg circle ~ line {
+  stroke: #3f51b5;
+}
