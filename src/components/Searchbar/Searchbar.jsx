@@ -10,17 +10,13 @@ const Searchbar = ({ onSubmit }) => {
       return;
     }
     onSubmit(search);
-
-    setSearch('');
-    reset();
+    
   };
 
   const handleInput = e => {
     setSearch(e.currentTarget.value);
   };
-  const reset = () => {
-    setSearch('');
-  };
+  
 
   return (
     <header className={s.Searchbar}>
